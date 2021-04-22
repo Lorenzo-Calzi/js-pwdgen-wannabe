@@ -11,3 +11,5 @@ var favColor = prompt("Qual'è il tuo colore preferito ?")
 
 
 //Unire i vari risultati per creare un password
+document.getElementById('greetings').innerHTML = 'Ciao '+ userName;
+document.getElementById('password').innerHTML = 'La tua password è : ' + userName + lastName + favColor + '21';
