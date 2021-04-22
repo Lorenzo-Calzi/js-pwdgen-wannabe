@@ -1,0 +1,42 @@
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.container h2{
+    font-size: 35px;
+}
+.container p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.dati span{
+    background-color: rgb(62, 74, 185);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.result p{
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+#password{
+    color: rgb(140, 0, 255);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+

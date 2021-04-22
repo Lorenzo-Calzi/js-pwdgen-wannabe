@@ -5,13 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="./ASSETS/CSS/style.css">
 </head>
 <body>
 
-    <h1 id="greetings"></h1>
-    <p id="password"></p>
-    
-    <script src="./ASSETS/JS/main.js"></script>
+    <main>
+        <div class="container">
+
+            <h1>GENERATORE DI PASSWORD</h1>
+            <h2 id="greetings"></h2>
+            <p>Qui di seguito troverai i dati che hai inserito:</p>
+
+            <div class="dati">
+                <span id="name"></span>
+                <span id="lastname"></span>
+                <span id="color"></span>
+            </div>
+
+            <div class="result">
+                <p>La tua password è : <strong id="password"></strong></p>
+            </div>
+            
+        </div>
+        
+        <script src="./ASSETS/JS/main.js"></script>
+       
+    </main>
 
 </body>
 </html>
